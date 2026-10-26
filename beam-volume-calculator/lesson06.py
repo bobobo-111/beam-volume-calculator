@@ -1,0 +1,10 @@
+liang_bianhao=input("请输入梁编号：")
+liang_length=input("请输入梁长度（米）：")
+liang_length=float(liang_length)
+liang_width=input("请输入梁宽度（米）：")
+liang_width=float(liang_width)
+liang_height=input("请输入梁高度（米）：")
+liang_height=float(liang_height)
+liang_volume=liang_length*liang_width*liang_height
+print("梁编号：",liang_bianhao)
+print("梁体积：",liang_volume,"立方米")
